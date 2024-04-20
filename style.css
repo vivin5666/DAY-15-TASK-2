@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(241, 231, 212);
+  }
+  .heading {
+      text-align: center;
+    }
+      .con {
+      justify-content: center;    
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      margin: 2%;
+      gap: 5%;
+      font-size:medium;
+    }
+    input {
+      padding: 20px;
+      gap: 20px;
+      color:blue;
+    }
+    button {
+      width: 30%;
+      height: 40%;
+      padding: 10%;
+      margin-left: 300%;    
+      border-radius: 10%;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-left: 20px;
+      margin-top: 20px;
+      background-color: black;
+    }
+  
+    th,
+    td {
+      border: 2px solid grey;
+      padding: 8px;
+      text-align: left;
+      font-weight: bolder;
+      color:black;
+    }
